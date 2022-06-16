@@ -2,27 +2,41 @@
 /*Já deixaremos o básico de reset de estilos. Caso queira adicionar mais informações
 coloque nas sessões indicadas*/
 
-:root{
-    /*Insira a variavel das outras cores inspecionando o modelo do figma*/
-    /*Se esforce para trabalhar com variáveis, é uma dica profissional valiosa*/
-   --cor-de-fundo: #F5F5F5;
-   --cor-de-link: #000;
+:root {
+  /*Insira a variavel das outras cores inspecionando o modelo do figma*/
+  /*Se esforce para trabalhar com variáveis, é uma dica profissional valiosa*/
+  --dark-gray: #2f2519;
+  --medium-gray: #4a3f35;
+  --light-orange: #fa7d09;
+  --dark-orange: #ff4301;
+  --whitish: #f5f5f5;
 }
 
 body {
-    box-sizing: border-box;
-    background-color: var(--cor-de-fundo) ;
-    font-family: 'Raleway';
-    margin: 0;
-    padding: 0;
-    line-height: 1;
+  display: flex;
+  box-sizing: border-box;
+  background-color: var(--dark-gray);
+  font-family: "Raleway";
+  color: var(--whitish);
+  margin: 0;
+  padding: 0;
+  line-height: 1;
 }
-ol, ul,li {
-    list-style: none;
+
+ol,
+ul,
+li {
+  list-style: none;
 }
-a{
-    text-decoration: none;
-    color: var(--cor-de-link);
+
+a {
+  text-decoration: none;
+  color: var(--light-orange);
+}
+
+a:hover {
+  text-decoration: underline;
+  text-decoration-color: var(--dark-orange);
 }
 
 /*Neste desafio, gostariamos que praticassem a metodologia BEM, caso se sintam à vontade 
@@ -40,50 +54,42 @@ https://en.bem.info/methodology/quick-start/*/
 
 /*Sessão Menu*/
 
-section.menu{
-
+section.menu {
 }
 
 /*Sessão Title*/
 
-section.title{
-
+section.title {
 }
 
 /*Sessão About*/
 
-section.about{
-
+section.about {
 }
 
 /*Sessão Hobbies*/
 
-section.hobbies{
-    
+section.hobbies {
 }
 
 /* Experiência Acadêmica*/
 
-section.academic{
-
+section.academic {
 }
 
 /* experiência*/
 
-section.experience{
-
+section.experience {
 }
 
 /*Contato*/
 
-section.formcontato{
-
+section.formcontato {
 }
 
 /*footeer*/
 
-section.footer{
-   
+section.footer {
 }
 
 /* Chegou a hora de se desafiar com a responsividade, 
@@ -91,40 +97,36 @@ utilize como referência os breakpoints @media abaixo*/
 
 /*Tablet*/
 @media (min-width: 768px) {
+  /* Menu */
 
-/* Menu */
+  /*title*/
 
-/*title*/
+  /*Skills*/
 
-/*Skills*/
+  /*Hobbies*/
 
-/*Hobbies*/
+  /*Experiências acadêmicas*/
 
-/*Experiências acadêmicas*/
-
-/*Expeirência profissional*/
-
+  /*Expeirência profissional*/
 }
 
 /*Mobile*/
 @media (min-width: 425px) {
+  /*Menu*/
 
-/*Menu*/
+  /*Titulo*/
 
-/*Titulo*/
+  /*Sessão sobre*/
 
-/*Sessão sobre*/
+  /*Skills*/
 
-/*Skills*/
+  /*Hobbies*/
 
-/*Hobbies*/
- 
-/*Formação Acadêmica*/
+  /*Formação Acadêmica*/
 
-/*Experiência Profissional*/
+  /*Experiência Profissional*/
 
- /*Contato*/
+  /*Contato*/
 
-/*Footer*/
-
+  /*Footer*/
 }
