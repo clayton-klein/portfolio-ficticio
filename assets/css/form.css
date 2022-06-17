@@ -1,0 +1,9 @@
+.formcontato {
+    background-color: var(--light-orange);
+    color: var(--dark-gray);
+    padding: 1rem;
+}
+
+.formcontato__img {
+    width: 100%;
+}

@@ -13,14 +13,14 @@ coloque nas sessões indicadas*/
 }
 
 body {
-  display: flex;
   box-sizing: border-box;
   background-color: var(--dark-gray);
-  font-family: "Raleway";
   color: var(--whitish);
+  font-family: "Raleway";
+  line-height: 1;
   margin: 0;
   padding: 0;
-  line-height: 1;
+  width: 100vw;
 }
 
 ol,
@@ -30,13 +30,18 @@ li {
 }
 
 a {
-  text-decoration: none;
   color: var(--light-orange);
+  text-decoration: none;
 }
 
 a:hover {
   text-decoration: underline;
   text-decoration-color: var(--dark-orange);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
 }
 
 /*Neste desafio, gostariamos que praticassem a metodologia BEM, caso se sintam à vontade 

@@ -1,0 +1,23 @@
+.menu {
+    width: 100vw;
+}
+
+.menu__top {
+    display: flex;
+    padding: 1rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu__title {
+    font-size: 1rem;
+}
+
+.menu__email {
+    display: block;
+    font-size: 0.9rem;
+}
+
+.menu__list {
+    display: none;
+}

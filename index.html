@@ -15,27 +15,28 @@
 		
 		<!-- Folha de estilo de CSS Linkado -->
 		<link rel="stylesheet" href="assets/css/base.css">
-        <link rel="stylesheet" href="assets/css/cabecalho.css">
+        <link rel="stylesheet" href="assets/css/header.css">
         <link rel="stylesheet" href="assets/css/hero.css">
-        <link rel="stylesheet" href="assets/css/sobre.css">
+        <link rel="stylesheet" href="assets/css/about.css">
         <link rel="stylesheet" href="assets/css/skills.css">
         <link rel="stylesheet" href="assets/css/hobbies.css">
-        <link rel="stylesheet" href="assets/css/formacoes.css">
-        <link rel="stylesheet" href="assets/css/projetos.css">
-        <link rel="stylesheet" href="assets/css/contato.css">
-        <link rel="stylesheet" href="assets/css/rodape.css">
+        <link rel="stylesheet" href="assets/css/academic.css">
+        <link rel="stylesheet" href="assets/css/experience.css">
+        <link rel="stylesheet" href="assets/css/form.css">
+        <link rel="stylesheet" href="assets/css/footer.css">
 
 		<!-- Script Linkado do seu documento de JavaScript -->
 		<script defer src="assets/js/validate.js"></script>
 </head>
 <body>
     <!-- Sessão de Menu  -->
-    <div class="all">
-    <section class="menu">
-        <header>
-            <img src="assets/img/vector.png">
-            <h3 class="menu__title">Clayton de Souza Klein</h3>
-        </header>
+    <div class="container">
+    <header class="menu">
+        <div class="menu__top">
+            <!-- <img src="assets/img/vector.png"> -->
+            <h1 class="menu__title">Clayton Klein</h1>
+            <a href="mailto:csklein87@hotmail.com" class="menu__email">csklein87@hotmail.com</a>
+        </div>
         <nav>
             <ul class="menu__list">
                 <li class="menu__list__item"><a href="#sobremim">Sobre mim</a></li>
@@ -46,24 +47,26 @@
                 <li class="menu__list__item__contato"><a href="#contato">Contato</a></li>                
             </ul>
         </nav>
-    </section>
+    </header>
 
 <!-- Sessão de Header/Title/Hero -->
-    <header class="title">
+    <section class="title">
         <div class="title__div">
             <img class="title__profile" src="assets/img/clayton-rosto.jpg">
             <div class="title__container" id="#sobremim">
-                <h2 class="title__bio">Olá, meu nome é Clayton e sou estudante de programação front-end</h2>
-                <h3 class="title__subsection">Atualmente estou participando do programa de formação ONE (Oracle Next Education) na Alura.</h3>
+                <!-- MÍNIMO 50 CHAR -->
+                <h2 class="title__bio">Olá, meu nome é Clayton e estou estudando programação focado principalmente no Front-End.</h2>
+                <p class="title__subsection">Atualmente estou participando do programa de formação ONE (Oracle Next Education) na Alura.</p>
                 <ul class="title__network">
                     <!-- Ponha os links de suas redes sociais favoritas -->
                     <li class="title__network__item"><a href="https://github.com/clayton-klein">Github <img src="assets/img/arrow.png"> </a></li>
                     <li class="title__network__item"><a href="https://www.linkedin.com/in/clayton-klein/">Linkedin <img src="assets/img/arrow.png"></a></li>
-                    <li class="title__network__item"><a href="">Curriculo <img src="assets/img/arrow.png"></a></li>
+                    <!-- EXTRA, ALTERAR PARA BOTÃO FUTURAMENTE! -->
+                    <li class="title__network__item"><a href="">Ver Curriculo <img src="assets/img/arrow.png"></a></li>
                 </ul>
             </div>
         </div>
-    </header>
+    </section>
 
         <!-- Sessão sobre mim -->
     <section class="about">
@@ -72,7 +75,7 @@
             <p class="about__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque velit velit, volutpat semper dignissim dictum, imperdiet ut lacus. Quisque gravida ex a mattis pretium. Suspendisse potenti. Ut semper sagittis ligula et lacinia. </p>
             <p class="about__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque velit velit, volutpat semper dignissim dictum, imperdiet ut lacus. Quisque gravida ex a mattis pretium. Suspendisse potenti. Ut semper sagittis ligula et lacinia. Aenean sit amet felis venenatis, egestas metus vitae, aliquet metus.</p>
             <!-- Caso queira colocar sua própria assinatura, insira aqui! -->
-            <img src="assets/img/signature.png">
+            <img src="assets/img/signature2.png">
         </div>
     </section>
 
@@ -161,7 +164,7 @@
 
     <!-- Sessão de Histórico Acadêmico -->
     <section class="academic">
-        <h2 class="academic__title" id="formacao">Formações</h2>
+        <h2 class="academic__title" id="formacao">Cursos</h2>
         <div class="academic__courses">
             <div class="academic__courses__box">
                 <ul class="academic__courses__list">
@@ -247,8 +250,8 @@
         <!-- Sessão de Footer/Rodapé-->
         <footer class="footer">
             <div class="footer__box">
-                <p>Desenvolvido por Clayton Klein &copy;</p>
-                <p>2022</p>
+                <p>Desenvolvido por <strong>Clayton Klein</strong></p>
+                <p>&copy; 2022</p>
             </div>
         </footer>
     </div>

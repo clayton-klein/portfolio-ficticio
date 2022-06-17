@@ -1,0 +1,11 @@
+.about {
+    margin: 1rem;
+}
+
+.about__title {
+    font-size: 1.4rem;
+}
+
+.about__paragraph {
+    font-size: 0.9rem;
+}

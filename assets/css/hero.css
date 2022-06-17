@@ -1,0 +1,25 @@
+.title {
+  padding: 1rem;
+}
+.title__profile {
+  width: 98px;
+  border-radius: 50%;
+}
+
+.title__bio {
+  font-size: 1.4rem;
+  line-height: 26px;
+  text-align: justify;
+}
+
+.title__subsection{
+    font-size: 0.9rem;
+    line-height: 0.9rem;
+}
+
+.title__network {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 0px;
+}
