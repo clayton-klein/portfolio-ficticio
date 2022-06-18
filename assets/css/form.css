@@ -1,9 +1,26 @@
 .formcontato {
     background-color: var(--light-orange);
     color: var(--dark-gray);
-    padding: 1rem;
+    padding: 2rem;
 }
 
 .formcontato__img {
+    display: none;
+    width: 100%;
+}
+
+.formcontato__title {
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+
+.formcontato__subtext {
+    margin: 0;
+}
+
+.formcontato__input, .formcontato__textarea {
+    margin: 2rem 0;
     width: 100%;
 }

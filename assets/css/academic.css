@@ -1,5 +1,39 @@
 .academic {
     background-color: var(--light-orange);
     color: var(--dark-gray);
+    padding: 1rem 0;
+}
+
+.academic__title {
+    font-weight: 700;
+    margin: 0;
     padding: 1rem;
+    text-align: center;
+}
+
+.academic__courses__box {
+    margin: 1rem 0;
+}
+
+.academic__courses__list {
+    padding: 0px;
+    margin: 0rem 2rem;
+}
+
+.academic__courses__item__img {
+    display: inline-block;
+}
+
+.academic__title {
+    font-size: 1.4rem;
+}
+
+.academic__courses__item__title h4 {
+    font-size: 1rem;
+    margin: 8px 0px;
+}
+
+.academic__courses__item__subtitle p {
+    font-size: 0.9rem;
+    margin: 0px;
 }

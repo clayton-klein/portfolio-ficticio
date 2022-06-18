@@ -1,3 +1,50 @@
 .experience {
-    margin: 1rem;
+  margin: 2rem;
+}
+
+.experiencie__box {
+    margin-bottom: 4rem;
+}
+
+.experiencie__box:last-child {
+    margin-bottom: 0;
+}
+
+.experience__section__title {
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.experience__img {
+  width: 100%;
+}
+
+.experience__title {
+    font-size: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 0;
+}
+
+.experience__text {
+    font-size: 0.9rem;
+    margin: 0.5rem 0;
+}
+
+.experiencia__botao--demo, .experiencia__botao--repo {
+    padding: 12px 16px;
+    border: 1px solid;
+}
+
+.experiencia__botao--repo {
+    background-color: var(--dark-gray);
+    color: var(--light-orange);
+}
+
+.experiencia__botao--demo {
+    background-color: var(--light-orange);
+    color: var(--dark-gray);
+    border-color: var(--light-orange);
 }
