@@ -7,7 +7,7 @@
 .academic__title {
     font-weight: 700;
     margin: 0;
-    padding: 1rem;
+    padding: 1rem 0;
     text-align: center;
 }
 
@@ -15,13 +15,9 @@
     margin: 1rem 0;
 }
 
-.academic__courses__list {
-    padding: 0px;
-    margin: 0rem 2rem;
-}
-
 .academic__courses__item__img {
     display: inline-block;
+    width: 100%;
 }
 
 .academic__title {
@@ -30,10 +26,10 @@
 
 .academic__courses__item__title h4 {
     font-size: 1rem;
-    margin: 8px 0px;
+    margin: 8px 0;
 }
 
 .academic__courses__item__subtitle p {
     font-size: 0.9rem;
-    margin: 0px;
+    margin: 0 0 0 0;
 }

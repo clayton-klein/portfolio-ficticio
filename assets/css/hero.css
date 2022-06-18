@@ -17,6 +17,10 @@
     line-height: 0.9rem;
 }
 
+.title__network__item__icon {
+  width: 16px;
+}
+
 .title__network {
     display: flex;
     flex-direction: row;

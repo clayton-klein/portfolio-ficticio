@@ -26,6 +26,10 @@
     padding: 0px;
 }
 
+.hobbies__img img {
+    width: 30%;
+}
+
 .hobbies__name {
     margin-top: 8px;
 }
