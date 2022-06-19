@@ -21,7 +21,8 @@
 }
 
 .formcontato__input, .formcontato__textarea {
-    margin: 2rem 0;
+    border-radius: 5px;
+    margin-top: 2rem;
     outline: none;
     width: 100%;
 }
@@ -32,12 +33,13 @@
 
 .formcontato__input {
     border: none;
-    padding: 8px 0;
+    padding: 8px 0px 8px 12px;
 }
 
 .formcontato__textarea {
+    border: none;
     height: 22vh;
-    padding: 0;
+    padding: 8px 0px 8px 12px;
 }
 
 .formcontato__botao {
@@ -45,5 +47,6 @@
     border: 1px solid;
     border-radius: 5px;
     color: var(--light-orange);
+    margin-top: 2rem;
     padding: 12px 16px;
 }

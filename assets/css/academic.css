@@ -7,7 +7,7 @@
 .academic__title {
     font-weight: 700;
     margin: 0;
-    padding: 1rem 0;
+    padding: 1rem 0rem;
     text-align: center;
 }
 
@@ -15,9 +15,18 @@
     margin: 1rem 0;
 }
 
+.academic__courses__list ul {
+    padding-inline-start: 2rem;
+
+}
+
 .academic__courses__item__img {
     display: inline-block;
     width: 100%;
+}
+
+.academic__courses__item__img img {
+    border-radius: 5px;
 }
 
 .academic__title {

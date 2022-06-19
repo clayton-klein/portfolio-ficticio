@@ -2,14 +2,6 @@
   margin: 2rem;
 }
 
-.experiencie__box {
-    margin-bottom: 4rem;
-}
-
-.experiencie__box:last-child {
-    margin-bottom: 0;
-}
-
 .experience__section__title {
   font-size: 1.4rem;
   font-weight: 700;
@@ -18,34 +10,44 @@
   text-align: center;
 }
 
+.experiencie__box {
+  margin-bottom: 4rem;
+}
+
+.experiencie__box:last-child {
+  margin-bottom: 0;
+}
+
 .experience__img {
+  border-radius: 5px;
   width: 100%;
 }
 
 .experience__title {
-    font-size: 1rem;
-    margin-top: 1rem;
-    margin-bottom: 0;
+  font-size: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 0;
 }
 
 .experience__text {
-    font-size: 0.9rem;
-    margin: 0.5rem 0;
+  font-size: 0.9rem;
+  margin: 0.5rem 0;
 }
 
-.experiencia__botao--demo, .experiencia__botao--repo {
-    border: 1px solid;
-    border-radius: 5px;
-    padding: 12px 16px;
+.experiencia__botao--demo,
+.experiencia__botao--repo {
+  border: 1px solid;
+  border-radius: 5px;
+  padding: 12px 16px;
 }
 
 .experiencia__botao--repo {
-    background-color: var(--dark-gray);
-    color: var(--light-orange);
+  background-color: var(--dark-gray);
+  color: var(--light-orange);
 }
 
 .experiencia__botao--demo {
-    background-color: var(--light-orange);
-    color: var(--dark-gray);
-    border-color: var(--light-orange);
+  background-color: var(--light-orange);
+  color: var(--dark-gray);
+  border-color: var(--light-orange);
 }

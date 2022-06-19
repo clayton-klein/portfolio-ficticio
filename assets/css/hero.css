@@ -1,6 +1,7 @@
 .title {
   padding: 1rem;
 }
+
 .title__profile {
   width: 98px;
   border-radius: 50%;
@@ -12,18 +13,18 @@
   text-align: justify;
 }
 
-.title__subsection{
-    font-size: 0.9rem;
-    line-height: 0.9rem;
+.title__subsection {
+  font-size: 0.9rem;
+  line-height: 0.9rem;
+}
+
+.title__network {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 0px;
 }
 
 .title__network__item__icon {
   width: 16px;
-}
-
-.title__network {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding-left: 0px;
 }
