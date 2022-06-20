@@ -22,13 +22,18 @@
 
 .formcontato__input, .formcontato__textarea {
     border-radius: 5px;
-    margin-top: 2rem;
     outline: none;
-    width: 100%;
+    width: 96%;
 }
 
 .formcontato__input:focus, .formcontato__textarea:focus {
     border-bottom: 2px solid var(--dark-gray);
+}
+
+.formcontato__label {
+    display: inline-block;
+    margin-top: 2rem; 
+    margin-bottom: 0.2rem;
 }
 
 .formcontato__input {

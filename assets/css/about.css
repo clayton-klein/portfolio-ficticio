@@ -1,5 +1,7 @@
 .about {
-    margin: 1rem;
+    background-color: var(--light-orange);
+    padding: 1rem;
+    color: var(--dark-gray);
 }
 
 .about__title {
@@ -8,4 +10,5 @@
 
 .about__paragraph {
     font-size: 0.9rem;
+    text-align: justify;
 }

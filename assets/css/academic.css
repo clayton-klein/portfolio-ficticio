@@ -12,12 +12,11 @@
 }
 
 .academic__courses__box {
-    margin: 1rem 0;
+    margin: 1rem 0px 1rem 0px;
 }
 
 .academic__courses__list ul {
-    padding-inline-start: 2rem;
-
+    /* padding-inline-start: 2rem; */
 }
 
 .academic__courses__item__img {
@@ -40,5 +39,5 @@
 
 .academic__courses__item__subtitle p {
     font-size: 0.9rem;
-    margin: 0 0 0 0;
+    margin: 0;
 }

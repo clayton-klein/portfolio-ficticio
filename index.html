@@ -14,8 +14,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
     <link rel="stylesheet" href="assets/css/base.css" />
-    <link rel="stylesheet" href="assets/css/header.css" />
-    <link rel="stylesheet" href="assets/css/hero.css" />
+    <link rel="stylesheet" href="assets/css/menu.css" />
+    <link rel="stylesheet" href="assets/css/title.css" />
     <link rel="stylesheet" href="assets/css/about.css" />
     <link rel="stylesheet" href="assets/css/skills.css" />
     <link rel="stylesheet" href="assets/css/hobbies.css" />
@@ -23,6 +23,7 @@
     <link rel="stylesheet" href="assets/css/experience.css" />
     <link rel="stylesheet" href="assets/css/form.css" />
     <link rel="stylesheet" href="assets/css/footer.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css">
 
     <script defer src="assets/js/validate.js"></script>
   </head>
@@ -97,19 +98,15 @@
         <div class="about__container">
           <h3 class="about__title">Sobre mim</h3>
           <p class="about__paragraph">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Pellentesque velit velit, volutpat semper dignissim dictum,
-            imperdiet ut lacus. Quisque gravida ex a mattis pretium. Suspendisse
-            potenti. Ut semper sagittis ligula et lacinia.
+            Reiniciei meus estudos sobre programação web em dezembro de 2021, antes disso eu tive uma tentativa frustrada por volta do meio do ano de 2017 onde, estudando de forma autodidata, eu tentei "abraçar o mundo" estudando várias tecnologias/metodologias tanto das áreas de Fron-End, quanto de Back-End, inclusive UX/UI. Fiz isso, pois é o que via o pessoal dizendo na internet que era o necessário para desenvolver uma aplicação completa, mas acabei me sobrecarregando aprendendo muita coisa de forma superficial e vendo que não chegaria a lugar nenhum dessa forma e acabei desistindo.
           </p>
           <p class="about__paragraph">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Pellentesque velit velit, volutpat semper dignissim dictum,
-            imperdiet ut lacus. Quisque gravida ex a mattis pretium. Suspendisse
-            potenti. Ut semper sagittis ligula et lacinia. Aenean sit amet felis
-            venenatis, egestas metus vitae, aliquet metus.
+            Atualmente com mais consciência de que existem diferentes áreas dentro deste universo de programação a minha intenção é primeiramente focar nas tecnologias de Front-End até me sentir confortável para daí então começar aprender sobre Back-End.
           </p>
-          <img src="assets/img/signature2.png" />
+          <p class="about__paragraph">
+            Estou participando do programa de formação ONE (Oracle Next Education) em parceria com Alura, onde com mais base e suporte dos instrutores e da comunidade de alunos tenho aprendido e me desenvolvido de forma mais estruturada e este projeto, assim como os outros citados nesta página (e outros que ainda virão), são resultados disso.
+          </p>
+          <img src="assets/img/fake-signature.png" />
         </div>
       </section>
 
@@ -328,31 +325,35 @@
             </p>
             <form class="formcontato__form">
               <!-- add label para os inputs -->
+              <label for="nome" class="formcontato__label">Nome:</label>
               <input
                 class="formcontato__input"
                 type="text"
                 id="nome"
-                placeholder="Nome"
+                placeholder="Digite seu nome"
               />
+              <label for="email" class="formcontato__label">E-mail:</label>
               <input
                 class="formcontato__input"
                 type="email"
                 id="email"
-                placeholder="Email"
+                placeholder="Digite seu e-mail"
               />
+              <label for="assunto" class="formcontato__label">Assunto:</label>
               <input
                 class="formcontato__input"
                 type="text"
                 id="assunto"
-                placeholder="Assunto"
+                placeholder="Digite o assunto da mensagem"
               />
+              <label for="mensagem" class="formcontato__label">Mensagem:</label>
               <textarea
                 class="formcontato__textarea"
                 rows="5"
                 cols="40"
                 id="mensagem"
                 name="mensagem"
-                placeholder="Sua mensagem"
+                placeholder="Digite sua mensagem"
               ></textarea>
               <button class="formcontato__botao">Enviar mensagem</button>
             </form>

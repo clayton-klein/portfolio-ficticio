@@ -1,0 +1,63 @@
+@media screen and (min-width: 768px) {
+  .container {
+    margin: 0;
+  }
+
+  .title__container {
+    align-items: center;
+  }
+
+  .title__profile {
+    float: right;
+    margin-left: 2rem;
+    width: 165px;
+  }
+
+  .title__network {
+    gap: 2rem;
+    justify-content: flex-start;
+  }
+
+  .skills__box,
+  .hobbies__box {
+    width: 44%;
+  }
+
+  .skills__line,
+  .hobbies__line {
+    gap: 1rem;
+    justify-content: center;
+  }
+
+  .academic {
+    margin: 2rem 1rem;
+  }
+
+  .academic__courses {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    margin: 0px;
+  }
+
+  .academic__courses__box {
+    margin: 0;
+  }
+
+  .academic__courses__list {
+    padding: 0px;
+  }
+
+  .experience, .formcontato {
+    margin: 2rem 1rem;
+  }
+
+  .formcontato__input, .formcontato__textarea {
+    width: 98%;
+  }
+
+  .footer {
+    width: 100vw;
+  }
+}

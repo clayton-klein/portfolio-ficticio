@@ -1,5 +1,5 @@
 .menu {
-    width: 100vw;
+    width: 100%;
 }
 
 .menu__top {
@@ -11,6 +11,7 @@
 
 .menu__title {
     font-size: 1rem;
+    color: var(--light-orange);
 }
 
 .menu__email {
