@@ -1,3 +1,4 @@
+/* Tablet */
 @media screen and (min-width: 768px) {
   .container {
     margin: 0;
@@ -30,7 +31,7 @@
   }
 
   .academic {
-    margin: 2rem 1rem;
+    margin: 2rem 0;
   }
 
   .academic__courses {
@@ -49,15 +50,150 @@
     padding: 0px;
   }
 
-  .experience, .formcontato {
-    margin: 2rem 1rem;
+  .experience,
+  .formcontato {
+    margin: 2rem 2rem;
   }
 
-  .formcontato__input, .formcontato__textarea {
+  .formcontato {
+    margin: 2rem 0 0 0;
+  }
+
+  .formcontato__input,
+  .formcontato__textarea {
     width: 98%;
   }
 
   .footer {
     width: 100vw;
+  }
+}
+
+/* Desktop */
+@media screen and (min-width: 1024px) {
+  .title,
+  .about,
+  .skills,
+  .hobbies,
+  .academic,
+  .experience,
+  .formcontato {
+    padding: 0 9.5rem;
+  }
+
+  .menu {
+    padding: 0 9.5rem;
+    width: 80%;
+  }
+
+  .menu__list {
+    display: flex;
+    gap: 2rem;
+  }
+
+  .title__profile {
+    margin-left: 1rem;
+    width: 368px;
+  }
+
+  .title__bio {
+    font-size: 3.25rem;
+  }
+
+  .title__subsection {
+    font-size: 1.4rem;
+  }
+
+  .about {
+    line-height: 1.5rem;
+    padding-left: 9.5rem;
+    padding-right: 33rem;
+  }
+
+  .about__title {
+    font-size: 2rem;
+  }
+
+  .about__paragraph {
+    font-size: 1rem;
+  }
+
+  .skills__box,
+  .hobbies__box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 20%;
+  }
+
+  .academic__courses {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 33%;
+  }
+
+  .skills__title,
+  .hobbies__title,
+  .academic__title {
+    font-size: 2rem;
+  }
+
+  .academic__title {
+    padding-top: 2rem;
+  }
+
+  .academic__courses {
+    align-items: center;
+    gap: 2rem;
+    justify-content: center;
+  }
+
+  .academic__courses__box {
+    flex-wrap: nowrap;
+    width: 33%;
+  }
+
+  .academic__courses__item__title h4 {
+    font-size: 1.4rem;
+  }
+
+  .academic__courses__item__subtitle p {
+    font-size: 1rem;
+  }
+
+  .experience__img {
+    float: left;
+    width: 60%;
+  }
+
+  .formcontato {
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+  }
+
+  .formcontato__title {
+    font-size: 2rem;
+    padding: 2rem;
+  }
+  
+  .formcontato__input, .formcontato__textarea {
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 90%;
+  }
+
+  .formcontato__botao {
+    font-size: 1rem;
+  }
+
+
+  .formcontato__text {
+    background-image: url("../img/contact.webp");
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+    margin-top: 2rem;
+    padding-left: 42%;
   }
 }

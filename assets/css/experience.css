@@ -48,6 +48,9 @@
 
 .experiencia__botao--demo {
   background-color: var(--light-orange);
-  color: var(--dark-gray);
   border-color: var(--light-orange);
+  color: var(--dark-gray);
+  margin-left: 1rem;
 }
+
+
