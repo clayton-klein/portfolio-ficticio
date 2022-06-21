@@ -8,11 +8,13 @@
 .menu__title {
     font-size: 1rem;
     color: var(--light-orange);
+    font-weight: bold;
 }
 
 .menu__email {
     display: block;
     font-size: 0.9rem;
+    font-weight: bold;
 }
 
 .menu__list {

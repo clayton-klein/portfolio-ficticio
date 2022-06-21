@@ -37,13 +37,13 @@
 
 .formcontato__input {
     border: none;
-    padding: 8px 0px 8px 12px;
+    padding: 16px 12px;
 }
 
 .formcontato__textarea {
     border: none;
     height: 22vh;
-    padding: 8px 0px 8px 12px;
+    padding: 16px 12px;
 }
 
 .formcontato__botao {

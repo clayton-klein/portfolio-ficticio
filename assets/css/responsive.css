@@ -93,8 +93,16 @@
     gap: 1rem;
   }
 
-  .title {
-    margin: 1rem 0;
+  .menu__email {
+    font-size: 1rem;
+  }
+
+  .title__div {
+    align-items: center;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    margin: 2rem 0;
   }
 
   .title__profile {
@@ -122,6 +130,10 @@
     padding-right: 33rem;
   }
 
+  .about__container img {
+    margin-bottom: 1rem;
+  }
+
   .about__title {
     font-size: 2rem;
   }
@@ -130,9 +142,8 @@
     font-size: 1rem;
   }
 
-  .skills,
   .hobbies {
-    margin: 1rem 0;
+    margin-bottom: 4rem;
   }
 
   .skills__box,
@@ -153,6 +164,10 @@
   .hobbies__title,
   .academic__title {
     font-size: 2rem;
+  }
+
+  .academic {
+    margin: 0;
   }
 
   .academic__courses {
@@ -190,16 +205,37 @@
     font-size: 1rem;
   }
 
+  .experience {
+    margin: 0;
+  }
+
+  #experience__box--1,
+  #experience__box--2 {
+    align-items: center;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    margin-bottom: 3rem;
+    width: 100%;
+  }
+
+  #experience__box--2 {
+    flex-direction: row-reverse;
+  }
+
   .experience__section__title {
     font-size: 2rem;
+    margin-bottom: 0;
+    padding: 2rem 0;
   }
 
   .experience__img {
     float: left;
-    width: 60%;
+    width: 70%;
   }
 
   .formcontato {
+    margin-top: 0;
     padding-bottom: 1rem;
     padding-top: 1rem;
   }
