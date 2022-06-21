@@ -41,6 +41,12 @@
   padding: 12px 16px;
 }
 
+.experiencia__botao--demo:hover,
+.experiencia__botao--repo:hover {
+  cursor: pointer;
+  transform: scale(0.9);
+}
+
 .experiencia__botao--repo {
   background-color: var(--dark-gray);
   color: var(--light-orange);

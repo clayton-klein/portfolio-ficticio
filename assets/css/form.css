@@ -54,3 +54,8 @@
     margin-top: 2rem;
     padding: 12px 16px;
 }
+
+.formcontato__botao:hover {
+    cursor: pointer;
+    transform: scale(0.9);
+}
