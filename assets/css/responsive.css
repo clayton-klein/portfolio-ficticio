@@ -79,10 +79,6 @@
     width: 98%;
   }
 
-  .formcontato__botao {
-    font-size: inherit;
-  }
-
   .footer {
     width: 100vw;
   }
@@ -253,6 +249,10 @@
     width: 70%;
   }
 
+  .experience__button--demo, .experience__button--repo {
+    font-size: 1rem;
+  }
+
   .formcontato {
     margin-top: 0;
     padding-bottom: 1rem;
@@ -261,7 +261,8 @@
 
   .formcontato__title {
     font-size: 2rem;
-    padding: 2rem;
+    padding: 2rem 0 0.5rem 0;
+    margin-bottom: 0;
   }
 
   .formcontato__label {
@@ -272,6 +273,10 @@
   .formcontato__textarea {
     background-color: rgba(255, 255, 255, 0.5);
     width: 90%;
+  }
+
+  .formcontato__textarea {
+    height: 18vh;
   }
 
   .formcontato__text {

@@ -1,6 +1,9 @@
 .academic {
     background-color: var(--light-orange);
     color: var(--dark-gray);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     padding: 1rem 0;
 }
 
@@ -13,10 +16,6 @@
 
 .academic__courses__box {
     margin: 1rem 0px 1rem 0px;
-}
-
-.academic__courses__list ul {
-    /* padding-inline-start: 2rem; */
 }
 
 .academic__courses__item__img {
