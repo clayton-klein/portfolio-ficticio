@@ -20,6 +20,8 @@
 }
 
 .formcontato__input, .formcontato__textarea {
+    font-family: inherit;
+    font-size: 1rem;
     border-radius: 5px;
     outline: none;
     width: 96%;
@@ -31,6 +33,7 @@
 
 .formcontato__label {
     display: inline-block;
+    font-size: 12px;
     margin-top: 2rem; 
     margin-bottom: 0.2rem;
 }
@@ -51,6 +54,8 @@
     border: 1px solid;
     border-radius: 5px;
     color: var(--light-orange);
+    font-family: inherit;
+    font-weight: 600;
     margin-top: 2rem;
     padding: 12px 16px;
 }

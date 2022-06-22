@@ -93,7 +93,7 @@
         </div>
       </section>
 
-      <section class="about" id="#about">
+      <section class="about" id="about">
         <div class="about__container">
           <h3 class="about__title">Sobre mim</h3>
           <p class="about__paragraph">
@@ -329,21 +329,24 @@
                 class="formcontato__input"
                 type="text"
                 id="nome"
-                placeholder="Digite seu nome"
+                placeholder="Exemplo: João ou Maria"
+                required
               />
               <label for="email" class="formcontato__label">E-mail:</label>
               <input
                 class="formcontato__input"
                 type="email"
                 id="email"
-                placeholder="Digite seu e-mail"
+                placeholder="email@exemplo.com.br"
+                required
               />
               <label for="assunto" class="formcontato__label">Assunto:</label>
               <input
                 class="formcontato__input"
                 type="text"
                 id="assunto"
-                placeholder="Digite o assunto da mensagem"
+                placeholder="Exemplo: Oferta de trabalho"
+                required
               />
               <label for="mensagem" class="formcontato__label">Mensagem:</label>
               <textarea
@@ -353,6 +356,7 @@
                 id="mensagem"
                 name="mensagem"
                 placeholder="Digite sua mensagem"
+                required
               ></textarea>
               <button class="formcontato__botao">Enviar mensagem</button>
             </form>

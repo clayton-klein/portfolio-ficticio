@@ -4,6 +4,10 @@
     margin: 0;
   }
 
+  .menu__top, .title, .about, .skills, .hobbies, .academic, .experience {
+    padding: 1rem 2rem;
+  }
+
   .title__container {
     align-items: center;
   }
@@ -17,6 +21,10 @@
   .title__network {
     gap: 2rem;
     justify-content: flex-start;
+  }
+
+  .skills, .hobbies {
+    margin: 0;
   }
 
   .skills__box,
@@ -44,24 +52,35 @@
 
   .academic__courses__box {
     margin: 0;
+    width: 30%;
   }
 
   .academic__courses__list {
     padding: 0px;
   }
 
+  .academic__courses__item__img img {
+    width: 100%;
+  }
+
   .experience,
   .formcontato {
-    margin: 2rem 2rem;
+    margin: 0;
+    padding: 0 2rem;
   }
 
   .formcontato {
     margin: 2rem 0 0 0;
+    padding: 2rem;
   }
 
   .formcontato__input,
   .formcontato__textarea {
     width: 98%;
+  }
+
+  .formcontato__botao {
+    font-size: inherit;
   }
 
   .footer {
