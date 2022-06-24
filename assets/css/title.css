@@ -24,6 +24,10 @@
   padding-left: 0px;
 }
 
+.title__network__item:hover {
+  transform: scale(1.2);
+}
+
 .title__network__item__icon {
   width: 16px;
 }

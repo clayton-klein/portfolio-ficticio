@@ -23,7 +23,7 @@
 .formcontato__textarea {
   border-radius: 5px;
   font-family: inherit;
-  font-size: 1rem;
+  font-size: 0.9rem;
   outline: none;
   width: 96%;
 }
@@ -35,9 +35,9 @@
 
 .formcontato__label {
   display: inline-block;
-  font-size: 12px;
+  font-size: 0.75rem;
   margin-bottom: 0.2rem;
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 
 .formcontato__input {
@@ -52,9 +52,9 @@
 }
 
 .formcontato__input--invalid {
-  color: red;
+  color: darkblue;
   display: block;
-  font-size: 14px;
+  font-size: 0.75rem;
   margin-top: 5px;
   visibility: hidden;
 }
@@ -67,7 +67,6 @@
   font-family: inherit;
   font-size: 14px;
   font-weight: 600;
-  margin-top: 2rem;
   padding: 12px 16px;
   visibility: hidden;
 }

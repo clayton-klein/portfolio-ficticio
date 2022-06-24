@@ -19,7 +19,7 @@ nameInput.addEventListener("blur", (e) => {
 });
 
 emailInput.addEventListener("blur", (e) => {
-  if (!emailInput.value || !emailInput.validity.valid) {
+  if (!emailInput.value || !emailInput.validity.patternMismatch) {
     invalidEmailSpan.style.visibility = "visible";
   } else {
     invalidEmailSpan.style.visibility = "hidden";

@@ -4,7 +4,13 @@
     margin: 0;
   }
 
-  .menu__top, .title, .about, .skills, .hobbies, .academic, .experience {
+  .menu__top,
+  .title,
+  .about,
+  .skills,
+  .hobbies,
+  .academic,
+  .experience {
     padding: 1rem 2rem;
   }
 
@@ -23,7 +29,8 @@
     justify-content: flex-start;
   }
 
-  .skills, .hobbies {
+  .skills,
+  .hobbies {
     margin: 0;
   }
 
@@ -98,17 +105,23 @@
   }
 
   .menu__top {
-    justify-content: space-between;
     padding: 1rem 0;
     width: 100%;
   }
 
+  .menu__nav {
+    display: flex;
+    align-items: center;
+  }
+
   .menu__list {
     display: flex;
-    gap: 1rem;
+    gap: 2rem;
+    margin-right: 2rem;
   }
 
   .menu__email {
+    display: inline-block;
     font-size: 1rem;
   }
 
@@ -249,7 +262,8 @@
     width: 70%;
   }
 
-  .experience__button--demo, .experience__button--repo {
+  .experience__button--demo,
+  .experience__button--repo {
     font-size: 1rem;
   }
 
@@ -287,6 +301,10 @@
     border-radius: 5px;
     margin: 2rem 0;
     padding-left: 45%;
+  }
+
+  .formcontato__input--invalid {
+    color: red;
   }
 
   .formcontato__botao {
