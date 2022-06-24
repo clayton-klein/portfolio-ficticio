@@ -20,3 +20,7 @@
 .menu__list {
     display: none;
 }
+
+.menu__list__item:hover, .menu__email:hover {
+    transform: scale(1.2);
+}

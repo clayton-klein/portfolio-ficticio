@@ -29,7 +29,7 @@
     <link rel="stylesheet" href="assets/css/footer.css" />
     <link rel="stylesheet" href="assets/css/responsive.css" />
 
-    <script defer src="assets/js/validate.js"></script>
+    <script defer src="assets/js/validation.js"></script>
   </head>
   <body>
     <div class="container">
@@ -43,7 +43,7 @@
               <li class="menu__list__item"><a href="#hobbies">Hobbies</a></li>
               <li class="menu__list__item"><a href="#cursos">Cursos</a></li>
               <li class="menu__list__item"><a href="#xp">Projetos</a></li>
-              <li class="menu__list__item__contato">
+              <li class="menu__list__item">
                 <a href="#contato">Contato</a>
               </li>
             </ul>
@@ -87,7 +87,10 @@
               </li>
               <!-- EXTRA, ALTERAR PARA BOTÃO FUTURAMENTE! -->
               <li class="title__network__item">
-                <a href="#" id="curriculo"
+                <a
+                  href="assets/cv_fake_clayton.pdf"
+                  target="_blank"
+                  id="curriculo"
                   >Currículo
                   <img
                     src="assets/img/icons8-link-externo.svg"
@@ -106,13 +109,14 @@
             Reiniciei meus estudos sobre programação web em dezembro de 2021,
             antes disso eu tive uma tentativa frustrada por volta do meio do ano
             de 2017 onde, estudando de forma autodidata, eu tentei "abraçar o
-            mundo" estudando de tudo um pouco de forma superficial.
+            mundo" estudando de tudo um pouco o que acabou me sobrecarregando.
           </p>
           <p class="about__paragraph">
             Atualmente com mais consciência de que existem diferentes áreas
             dentro deste universo da programação, a minha intenção é
             primeiramente focar nas tecnologias de Front-End até me sentir
-            confortável para daí então começar aprender sobre Back-End.
+            confortável para daí então começar aprender sobre Back-End e quem
+            sabe até outras áreas.
           </p>
           <p class="about__paragraph">
             Estou participando do programa de formação ONE (Oracle Next
@@ -347,29 +351,40 @@
                 type="text"
                 id="nome"
                 placeholder="Exemplo: João ou Maria"
-                minlength="2"
-                maxlength="50"
-                title="Este campo deve conter no máximo 50 letras."
+                pattern="/^[a-zA-Z]+{2, 50}$/g"
+                title="Este campo deve ser preenchido e conter no mínimo 2 e no máximo 50 letras."
                 required
               />
+              <span class="js-invalid-name formcontato__input--invalid"
+                >Este campo deve ser preenchido e conter no mínimo 2 e no máximo
+                50 letras.</span
+              >
               <label for="email" class="formcontato__label">E-mail:</label>
               <input
                 class="formcontato__input"
                 type="email"
                 id="email"
                 placeholder="email@exemplo.com.br"
+                title="Exemplo: email@exemplo.com.br"
+                pattern="/^[\w-\.]+@([\w-]+\.)+([\w-]{2,4})$/g"
                 required
               />
+              <span class="js-invalid-email formcontato__input--invalid"
+                >Por favor digite um E-mail válido!</span
+              >
               <label for="assunto" class="formcontato__label">Assunto:</label>
               <input
                 class="formcontato__input"
                 type="text"
                 id="assunto"
                 placeholder="Exemplo: Oferta de trabalho"
-                maxlength="50"
-                title="Este campo deve conter no máximo 50 letras."
+                title="Este campo deve ser preenchido e conter no máximo 50 letras."
                 required
               />
+              <span class="js-invalid-subject formcontato__input--invalid"
+                >Este campo deve ser preenchido e conter no máximo 50
+                letras.</span
+              >
               <label for="mensagem" class="formcontato__label">Mensagem:</label>
               <textarea
                 class="formcontato__textarea"
@@ -378,10 +393,13 @@
                 id="mensagem"
                 name="mensagem"
                 placeholder="Digite sua mensagem"
-                maxlength="300"
                 title="Este campo deve conter no máximo 300 letras."
                 required
               ></textarea>
+              <span class="js-invalid-msg formcontato__input--invalid"
+                >Este campo deve ser preenchido e conter no máximo 300
+                letras.</span
+              >
               <button class="formcontato__botao">Enviar mensagem</button>
             </form>
           </div>

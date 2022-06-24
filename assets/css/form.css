@@ -1,67 +1,78 @@
 .formcontato {
-    background-color: var(--light-orange);
-    color: var(--dark-gray);
-    padding: 2rem;
+  background-color: var(--light-orange);
+  color: var(--dark-gray);
+  padding: 2rem;
 }
 
 .formcontato__img {
-    display: none;
+  display: none;
 }
 
 .formcontato__title {
-    font-size: 1.4rem;
-    font-weight: 700;
-    margin-top: 0;
-    margin-bottom: 0.5rem;
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  margin-top: 0;
 }
 
 .formcontato__subtext {
-    margin: 0;
+  margin: 0;
 }
 
-.formcontato__input, .formcontato__textarea {
-    font-family: inherit;
-    font-size: 1rem;
-    border-radius: 5px;
-    outline: none;
-    width: 96%;
+.formcontato__input,
+.formcontato__textarea {
+  border-radius: 5px;
+  font-family: inherit;
+  font-size: 1rem;
+  outline: none;
+  width: 96%;
 }
 
-.formcontato__input:focus, .formcontato__textarea:focus {
-    border-bottom: 2px solid var(--dark-gray);
+.formcontato__input:focus,
+.formcontato__textarea:focus {
+  border-bottom: 2px solid var(--dark-gray);
 }
 
 .formcontato__label {
-    display: inline-block;
-    font-size: 12px;
-    margin-top: 2rem; 
-    margin-bottom: 0.2rem;
+  display: inline-block;
+  font-size: 12px;
+  margin-bottom: 0.2rem;
+  margin-top: 2rem;
 }
 
 .formcontato__input {
-    border: none;
-    padding: 16px 12px;
+  border: none;
+  padding: 16px 12px;
 }
 
 .formcontato__textarea {
-    border: none;
-    height: 22vh;
-    padding: 16px 12px;
+  border: none;
+  height: 22vh;
+  padding: 16px 12px;
+}
+
+.formcontato__input--invalid {
+  color: red;
+  display: block;
+  font-size: 14px;
+  margin-top: 5px;
+  visibility: hidden;
 }
 
 .formcontato__botao {
-    background-color: var(--dark-gray);
-    border: 1px solid;
-    border-radius: 5px;
-    color: var(--light-orange);
-    font-family: inherit;
-    font-size: 14px;
-    font-weight: 600;
-    margin-top: 2rem;
-    padding: 12px 16px;
+  background-color: var(--dark-gray);
+  border: 1px solid;
+  border-radius: 5px;
+  color: var(--light-orange);
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 600;
+  margin-top: 2rem;
+  padding: 12px 16px;
+  visibility: hidden;
 }
 
 .formcontato__botao:hover {
-    cursor: pointer;
-    transform: scale(0.9);
+  cursor: pointer;
+  transform: scale(0.9);
 }
