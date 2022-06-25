@@ -53,5 +53,7 @@ document.addEventListener('input', (e) => {
     msgTextArea.validity.valid
   ) {
     formBtn.style.visibility = "visible";
+  } else {
+    formBtn.style.visibility = "hidden";
   }
 })
