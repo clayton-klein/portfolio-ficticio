@@ -58,7 +58,6 @@
         <div class="title__div">
           <img class="title__profile" src="assets/img/clayton-rosto.jpg" />
           <div class="title__container">
-            <!-- MÍNIMO 50 CHAR -->
             <h2 class="title__bio">
               Olá, meu nome é Clayton e sou estudante de programação Front-End.
             </h2>
@@ -85,7 +84,6 @@
                     class="title__network__item__icon"
                 /></a>
               </li>
-              <!-- EXTRA, ALTERAR PARA BOTÃO FUTURAMENTE! -->
               <li class="title__network__item">
                 <a
                   href="assets/cv_fake_clayton.pdf"
@@ -117,13 +115,6 @@
             primeiramente focar nas tecnologias de Front-End até me sentir
             confortável para daí então começar aprender sobre Back-End e quem
             sabe até outras áreas.
-          </p>
-          <p class="about__paragraph">
-            Estou participando do programa de formação ONE (Oracle Next
-            Education) em parceria com Alura, onde com suporte dos instrutores e
-            da comunidade de alunos tenho aprendido e me desenvolvido de forma
-            mais estruturada e este projeto, assim como os outros citados nesta
-            página (e outros que ainda virão), são resultados disso.
           </p>
           <img src="assets/img/fake-signature.png" />
         </div>
@@ -344,14 +335,13 @@
               Preencha o formulário e responderei o mais rápido possível.
             </p>
             <form class="formcontato__form">
-              <!-- add label para os inputs -->
               <label for="nome" class="formcontato__label">Nome:</label>
               <input
                 class="formcontato__input"
                 type="text"
                 id="nome"
                 placeholder="Exemplo: João ou Maria"
-                pattern="/^[a-zA-Z]+{2, 50}$/g"
+                pattern="/^[a-zA-Z]{2, 50}$/g"
                 title="Este campo deve ser preenchido e conter no mínimo 2 e no máximo 50 letras."
                 required
               />
@@ -366,7 +356,6 @@
                 id="email"
                 placeholder="email@exemplo.com.br"
                 title="Exemplo: email@exemplo.com.br"
-                pattern="/^[a-zA-Z0-9.!#$%&'*+\/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$/"
                 required
               />
               <span class="js-invalid-email formcontato__input--invalid"
@@ -379,6 +368,7 @@
                 id="assunto"
                 placeholder="Exemplo: Oferta de trabalho"
                 title="Este campo deve ser preenchido e conter no máximo 50 letras."
+                maxlength="50"
                 required
               />
               <span class="js-invalid-subject formcontato__input--invalid"
@@ -392,7 +382,7 @@
                 cols="40"
                 id="mensagem"
                 name="mensagem"
-                placeholder="Digite sua mensagem"
+                placeholder="Digite sua mensagem..."
                 title="Este campo deve conter no máximo 300 letras."
                 required
               ></textarea>

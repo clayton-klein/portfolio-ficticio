@@ -10,6 +10,9 @@ let invalidSubjectSpan = document.querySelector(".js-invalid-subject");
 let invalidMsgSpan = document.querySelector(".js-invalid-msg");
 let formBtn = document.querySelector(".formcontato__botao");
 
+//fonte: https://www.w3resource.com/javascript/form/email-validation.php
+let emailRegex = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+
 nameInput.addEventListener("blur", (e) => {
   if (nameInput.value.length < 2 || nameInput.value.length > 50) {
     invalidNameSpan.style.visibility = "visible";
@@ -19,7 +22,7 @@ nameInput.addEventListener("blur", (e) => {
 });
 
 emailInput.addEventListener("blur", (e) => {
-  if (!emailInput.value || !emailInput.validity.patternMismatch) {
+  if (!emailInput.value || !emailRegex.test(emailInput.value)) {
     invalidEmailSpan.style.visibility = "visible";
   } else {
     invalidEmailSpan.style.visibility = "hidden";
