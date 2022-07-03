@@ -1,4 +1,7 @@
 # Portfólio
+
+<img src="assets/img/medalha_conclusao_desafio_portfolio.png" alt="medalha por ter cumprido o desafio de criar uma página de portfólio" align="right" width="200"/>
+
 ### Terceiro desafio do programa ONE
 ---
 
